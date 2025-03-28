@@ -26,12 +26,12 @@ conda activate vc
 
 | 名称                  | 下载链接              |
 |-----------------------|-----------------------|
-| Content.zip           | 🔗 [下载 Content.zip](链接待补充)           |
-| singer_hifigan.zip    | 🔗 [下载 singer_hifigan.zip](链接待补充)    |
-| m4singer_pe.zip       | 🔗 [下载 m4singer_pe.zip](链接待补充)       |
-| pretrained_models.zip | 🔗 [下载 pretrained_models.zip](链接待补充) |
-| logs.zip              | 🔗 [下载 logs.zip](链接待补充)              |
-| wavlm.zip             | 🔗 [下载 wavlm.zip](链接待补充)             |
+| Content.zip           | 🔗 [下载 Content.zip](https://drive.google.com/file/d/1PdXkfH3Xa7TRbIgc5z5yprVQockzPG-H/view?usp=sharing)           |
+| m4singer_hifigan.zip    | 🔗 [下载 singer_hifigan.zip](https://drive.google.com/file/d/16sNQCMRoi05zKlmkLZk15OXObT0Ys5TE/view?usp=sharing)    |
+| m4singer_pe.zip       | 🔗 [下载 m4singer_pe.zip](https://drive.google.com/file/d/1FJRB2bnlQnNirsE-tzkhP-TZTCx2C53_/view?usp=sharing)       |
+| pretrained_models.zip | 🔗 [下载 pretrained_models.zip](https://drive.google.com/file/d/1zhpulxOgs2zbDvLtv86kf4_INa_P_V2o/view?usp=sharing) |
+| logs.zip              | 🔗 [下载 logs.zip](https://drive.google.com/file/d/18fJMVOJ5hrc12e4qbQmPhQqL94Jr7j1h/view?usp=sharing)              |
+| wavlm.zip             | 🔗 [下载 wavlm.zip](https://drive.google.com/file/d/16uFY1IezpFy4xqAdXCk1gZJbxBW3ZF8b/view?usp=sharing)             |
 
 > 📂 解压后，确保这些目录结构位于项目根目录 `./vc/` 下，例如：`./vc/logs/teacher/model_700600.pt`
 
