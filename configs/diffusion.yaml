@@ -1,0 +1,54 @@
+data:
+  cnhubertsoft_gate: 10
+  duration: 2
+  encoder: vec256l9
+  encoder_hop_size: 320
+  encoder_out_channels: 256
+  encoder_sample_rate: 16000
+  extensions:
+  - wav
+  filter_length: 512
+  hop_length: 128
+  sampling_rate: 24000
+  training_files: ./filelists/trainlist_test.txt
+  unit_interpolate_mode: nearest
+  validation_files: filelists/val.txt
+  win_length: 512
+device: cuda
+env:
+  comodir: logs/como
+  ctcomodir: logs/ctcomo
+  expdir: ./logs/test
+  gpu_id: 0
+infer:
+  method: dpm-solver++
+model:
+  n_chans: 512
+  n_hidden: 256
+  n_layers: 20
+  n_spk: 1
+  type: Diffusion
+  use_pitch_aug: true
+spk:
+  test: 0
+train:
+  amp_dtype: fp32
+  batch_size: 10
+  cache_all_data: true
+  cache_device: cpu
+  cache_fp16: true
+  comolr: 5.0e-05
+  ctcomolr: 0.0001
+  decay_step: 100000
+  epochs: 100000
+  gamma: 0.5
+  interval_force_save: 200
+  interval_log: 10
+  interval_val: 200
+  lr: 0.0001
+  num_workers: 0
+  save_opt: false
+  weight_decay: 0
+vocoder:
+  ckpt: m4singer_hifigan/model_ckpt_steps_1970000.ckpt
+  type: m4-gan
