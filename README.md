@@ -19,15 +19,20 @@ conda activate vc
 
 ## 📥 模型下载
 
-请准备以下模型文件：
+请下载下表中列出的模型压缩包，并将其 **解压后放入 `./vc` 目录下**：
 
-| 模型类型       | 路径                                       | 说明                        |
-|----------------|--------------------------------------------|-----------------------------|
-| 教师模型权重   | `logs/teacher/model_700600.pt`             | 用于学生模型蒸馏指导        |
-| PE 模型（可选）| `./m4singer_pe/model_ckpt_steps_280000.ckpt` | 用于 decoder.pe 的加载     |
-| CoMoSVC 模板   | `logs/como/`                               | 初始模型权重与配置文件     |
+| 名称                  | 下载链接              |
+|-----------------------|-----------------------|
+| Content.zip           | 🔗 [下载 Content.zip](链接待补充)           |
+| singer_hifigan.zip    | 🔗 [下载 singer_hifigan.zip](链接待补充)    |
+| m4singer_pe.zip       | 🔗 [下载 m4singer_pe.zip](链接待补充)       |
+| pretrained_models.zip | 🔗 [下载 pretrained_models.zip](链接待补充) |
+| logs.zip              | 🔗 [下载 logs.zip](链接待补充)              |
+| wavlm.zip             | 🔗 [下载 wavlm.zip](链接待补充)             |
 
----
+> 📂 解压后，确保这些目录结构位于项目根目录 `./vc/` 下，例如：`./vc/logs/teacher/model_700600.pt`
+
+
 
 ## 📂 项目结构示例
 
