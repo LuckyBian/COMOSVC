@@ -1,6 +1,9 @@
 # 🎤 CoMoSVC 声音转换系统使用说明
 
-本项目基于 [CoMoSVC](https://github.com/) 实现了一个从原始音频 → 训练 → 蒸馏 → 推理 的完整声音转换流程，支持教师模型训练、学生模型蒸馏以及音高转换推理。
+本项目是对 [CoMoSVC 原始项目](https://github.com/Grace9994/CoMoSVC/tree/main) 的整理与封装，旨在实现从原始音频 → 数据预处理 → 教师模型训练 → 学生模型蒸馏 → 推理转换 的完整流程，支持多说话人语音转换与音高控制。
+
+📄 论文链接： [CoMoSVC: A Diffusion-based Singing Voice Conversion System With Pitch and Timbre Modeling](https://arxiv.org/abs/2401.01792)
+
 
 ---
 
